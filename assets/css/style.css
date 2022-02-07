@@ -1,0 +1,70 @@
+/* applying universal style to the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body style: background color and fonts used */
+body {
+    background-color: #6e507a;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #9dc3e7;
+
+}
+/* creating the styles for the header
+* I want my name to be <h1> and inline with the relative links to my work and contact info
+* do not want the links to have a unlerline or be the default blue color
+*/
+header {
+    padding-left: 16px;
+    padding-right: 55%;
+    margin-top: 10px;
+}
+
+/* the header <h1> element (my name) */
+header h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 36 px;
+    display: inline;
+    padding-right: 8px;
+    border-right: 1px solid #7494ac;
+}
+
+/* setting the relative anchor so it does not change colors when clicked */
+header a {
+    text-decoration: none;
+    color: #7494ac;
+}
+
+header nav a {
+    display: block;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+/* hero section:
+* goals include
+* a landscape image that takes up the right half of the screen
+* my "job title" in bold, legible text with a contrasting underline
+* my "job skills" below the job title
+*/
+.hero {
+    height: 600px;
+    margin-top: 10px;
+    background-image: url(../images/background-03.jpg);
+    background-repeat: no-repeat;
+    background-position: absolute;
+   background-position-x: right;
+    background-size: 55% auto;
+}
