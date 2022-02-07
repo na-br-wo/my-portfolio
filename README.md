@@ -8,7 +8,7 @@ An internet based portfolio displaying my personal skills, achievements, knowled
 * CSS
 
 ## Website
-https://na-br-wo.github.io/run-buddy/
+https://na-br-wo.github.io/my-portfolio/
 
 ## Contribution
 Built in 2022 by Nathan Wood
